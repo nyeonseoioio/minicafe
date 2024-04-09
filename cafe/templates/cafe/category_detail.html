@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+<!-- 페이지 이름 -->
+{% block title %}Category Detail{% endblock %}
+
+<title>{{ category.name }} MENU </title>
+
+<body>
+    <div class="center">
+        <h1>{{ category.name }}</h1>
+        <p> 카테고리 설명: {{ category.description }}</p>
+    </div>
+</body>
